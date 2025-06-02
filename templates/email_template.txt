@@ -1,0 +1,14 @@
+Dear  {{name}},
+I hope this message finds you well.
+
+My name is Rakesh Honawad, and I am a recent graduate with hands-on experience in backend development using Java, Go, and Spring Boot, along with familiarity in AWS and Docker. I am actively seeking entry-level opportunities for the role of Software Development Engineer (SDE) and wanted to reach out to explore if there are any current openings for freshers at {{company}}
+
+I am passionate about building scalable backend systems, and I would be excited to contribute to your organization’s technical goals while learning from a high-performing team. I have attached my resume for your reference and would truly appreciate any opportunities or guidance you could provide.
+
+Thank you for your time and consideration. I look forward to the possibility of connecting.
+
+Warm regards,
+Rakesh Honawad
+Email: rakeshhonawad46@gmail.com
+Phone: +91-7846993794
+LinkedIn: https://www.linkedin.com/in/rakesh-honawad
