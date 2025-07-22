@@ -1,13 +1,35 @@
-📧 AUTO EMAIL SENDER USING PDF CONTACT LIST
-This Python-based automation project extracts contact information from a PDF and sends customized emails with an attached resume. Ideal for outreach campaigns like job applications or networking, this tool personalizes every email using a text template and supports secure Gmail sending.
+# 📧 Automated Email Bot using PDF Input & Python
 
-✅ FEATURES
-Extracts Name, Email, Company from a structured PDF
+This project is a **Python-based Email Automation Bot** that reads recipient data from a PDF file and sends **customized emails** with optional attachments (e.g., resume).  
+Built using `smtplib`, `email`, `dotenv`, and `PyMuPDF`, it’s ideal for job outreach, marketing campaigns, or personalized bulk emailing.
 
-Fills placeholders ({{name}}, {{company}}) in an email template
+---
 
-Attaches resume to each email
+## ✅ FEATURES
 
-Uses secure Gmail authentication (via .env)
+- 📄 **Extracts recipient info** (name, email, company) from PDF
+- 📨 **Sends customized emails** using a dynamic template
+- 📎 Optional attachment support (like resume)
+- 🔐 Uses environment variables for secure credential management
+- 🔁 Logs success and failures for each email sent
 
-Sends emails using SMTP over SSL
+---
+
+## 🧰 TECH STACK
+
+- **Python 3.x**
+- `smtplib` for sending emails
+- `email.message` for composing MIME messages
+- `dotenv` for secure environment variable handling
+- `PyMuPDF (fitz)` for reading from PDF
+- `Gmail SMTP` (can be adapted to other SMTP providers)
+
+---
+
+## ⚙️ SETUP INSTRUCTIONS
+
+### 📦 1. Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/email-bot-pdf.git
+cd email-bot-pdf
