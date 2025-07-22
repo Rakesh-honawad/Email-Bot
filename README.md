@@ -13,8 +13,6 @@ This Python project automates the process of sending customized emails with atta
 ✅ Sends emails via Gmail SMTP (smtplib) with SSL
 
 📁 Project Structure
-bash
-Copy
 Edit
 📦 auto-email-sender
 ├── main.py
@@ -26,23 +24,12 @@ Edit
 ├── README.md
 📦 Requirements
 Make sure you have the following installed:
-
-bash
-Copy
-Edit
 pip install python-dotenv pymupdf
 📄 .env Format
 Create a .env file in the root directory with:
-
-env
-Copy
-Edit
 SENDER_EMAIL=your_email@gmail.com
 EMAIL_PASSWORD=your_app_password  # Use App Password if 2FA is enabled
 📤 How to Run
-bash
-Copy
-Edit
 python main.py
 ✅ The script will:
 
