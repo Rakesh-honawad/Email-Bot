@@ -43,10 +43,4 @@ Create a `.env` file in the root directory of your project and add the following
 ```env
 SENDER_EMAIL=your_email@gmail.com
 EMAIL_PASSWORD=your_email_app_password
-
-📄 3. Prepare the PDF File
-Create a file named recipients.pdf with the following comma-separated format:
-Name, Email, Company
-Alice Johnson, alice@example.com, Amazon
-Bob Smith, bob@example.com, Microsoft
-📝 Ensure the first line is the header and data begins from the second line.
+---
